@@ -19,7 +19,7 @@ export function MainNav() {
       <Link href="/" className="mr-6 flex items-center space-x-2">
         {/* <Icons.logo className="w-6 h-6" /> */}
         <Logo />
-        <span className="hidden font-bold sm:inline-block">
+        <span className="hidden font-semibold sm:inline-block">
           {siteConfig.name}
         </span>
       </Link>
@@ -28,7 +28,7 @@ export function MainNav() {
           href="/examples/dashboard"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname === "/examples/dashboard"
+            pathname === "/examples/dashboard" || pathname === "/"
               ? "font-bold text-foreground"
               : "text-foreground/60"
           )}
