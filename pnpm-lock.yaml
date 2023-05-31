@@ -11,6 +11,7 @@ importers:
       '@commitlint/config-conventional': ^17.6.3
       '@ianvs/prettier-plugin-sort-imports': ^3.7.2
       '@manypkg/cli': ^0.20.0
+      '@types/acorn': ^6.0.0
       '@types/node': ^17.0.45
       '@types/react': ^18.2.7
       '@types/react-dom': ^18.2.4
@@ -65,7 +66,161 @@ importers:
       turbo: 1.10.0
       typescript: 4.9.5
     devDependencies:
+      '@types/acorn': 6.0.0
       prettier-plugin-tailwindcss: 0.3.0_5lfec6lggp737zy5jf5i7nvsxu
+
+  apps/front-end:
+    specifiers:
+      '@faker-js/faker': ^7.6.0
+      '@hookform/resolvers': ^3.1.0
+      '@radix-ui/react-accessible-icon': ^1.0.3
+      '@radix-ui/react-accordion': ^1.1.2
+      '@radix-ui/react-alert-dialog': ^1.0.4
+      '@radix-ui/react-aspect-ratio': ^1.0.3
+      '@radix-ui/react-avatar': ^1.0.3
+      '@radix-ui/react-checkbox': ^1.0.4
+      '@radix-ui/react-collapsible': ^1.0.3
+      '@radix-ui/react-context-menu': ^2.1.4
+      '@radix-ui/react-dialog': ^1.0.4
+      '@radix-ui/react-dropdown-menu': ^2.0.5
+      '@radix-ui/react-hover-card': ^1.0.6
+      '@radix-ui/react-label': ^2.0.2
+      '@radix-ui/react-menubar': ^1.0.3
+      '@radix-ui/react-navigation-menu': ^1.1.3
+      '@radix-ui/react-popover': ^1.0.6
+      '@radix-ui/react-progress': ^1.0.3
+      '@radix-ui/react-radio-group': ^1.1.3
+      '@radix-ui/react-scroll-area': ^1.0.4
+      '@radix-ui/react-select': ^1.2.2
+      '@radix-ui/react-separator': ^1.0.3
+      '@radix-ui/react-slider': ^1.1.2
+      '@radix-ui/react-slot': ^1.0.2
+      '@radix-ui/react-switch': ^1.0.3
+      '@radix-ui/react-tabs': ^1.0.4
+      '@radix-ui/react-toast': ^1.1.4
+      '@radix-ui/react-toggle': ^1.0.3
+      '@radix-ui/react-toggle-group': ^1.0.4
+      '@radix-ui/react-tooltip': ^1.0.6
+      '@tanstack/react-table': ^8.9.1
+      '@types/acorn': ^6.0.0
+      '@types/node': ^17.0.45
+      '@types/react': ^18.2.7
+      '@types/react-color': ^3.0.6
+      '@types/react-dom': ^18.2.4
+      '@vercel/analytics': ^1.0.1
+      '@vercel/og': ^0.0.21
+      class-variance-authority: ^0.4.0
+      clsx: ^1.2.1
+      cmdk: ^0.2.0
+      contentlayer: 0.3.0
+      date-fns: ^2.30.0
+      esbuild: ^0.17.19
+      eslint: ^8.41.0
+      lucide-react: 0.214.0
+      mdast-util-toc: ^6.1.1
+      next: 13.4.3
+      next-contentlayer: 0.3.0
+      next-themes: ^0.2.1
+      postcss: ^8.4.24
+      prettier: ^2.8.8
+      prettier-plugin-tailwindcss: ^0.3.0
+      react: ^18.2.0
+      react-day-picker: ^8.7.1
+      react-dom: ^18.2.0
+      react-hook-form: ^7.44.2
+      react-wrap-balancer: ^0.4.1
+      recharts: ^2.6.2
+      rehype: ^12.0.1
+      rehype-autolink-headings: ^6.1.1
+      rehype-pretty-code: ^0.6.0
+      rehype-slug: ^5.1.0
+      remark: ^14.0.3
+      remark-code-import: ^1.2.0
+      remark-gfm: ^3.0.1
+      sharp: ^0.31.3
+      shiki: ^0.12.1
+      tailwind-merge: ^1.12.0
+      tailwindcss: ^3.3.2
+      typescript: ^4.9.5
+      unist-builder: 3.0.0
+      unist-util-visit: ^4.1.2
+      zod: ^3.21.4
+    dependencies:
+      '@faker-js/faker': 7.6.0
+      '@hookform/resolvers': 3.1.0_react-hook-form@7.44.2
+      '@radix-ui/react-accessible-icon': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-accordion': 1.1.2_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-alert-dialog': 1.0.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-aspect-ratio': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-avatar': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-checkbox': 1.0.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-collapsible': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-context-menu': 2.1.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-dialog': 1.0.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-dropdown-menu': 2.0.5_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-hover-card': 1.0.6_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-label': 2.0.2_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-menubar': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-navigation-menu': 1.1.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-popover': 1.0.6_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-progress': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-radio-group': 1.1.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-scroll-area': 1.0.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-select': 1.2.2_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-separator': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-slider': 1.1.2_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-slot': 1.0.2_bfoz4c5kom3f237nig75ykjhhy
+      '@radix-ui/react-switch': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-tabs': 1.0.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-toast': 1.1.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-toggle': 1.0.3_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-toggle-group': 1.0.4_h73yytdk5ntplvft5jzh7k37ce
+      '@radix-ui/react-tooltip': 1.0.6_h73yytdk5ntplvft5jzh7k37ce
+      '@tanstack/react-table': 8.9.1_biqbaboplfbrettd7655fr4n2y
+      '@vercel/analytics': 1.0.1
+      '@vercel/og': 0.0.21
+      class-variance-authority: 0.4.0_typescript@4.9.5
+      clsx: 1.2.1
+      cmdk: 0.2.0_psemcf34ovg2dno52nagbe3daa
+      contentlayer: 0.3.0_esbuild@0.17.19
+      date-fns: 2.30.0
+      lucide-react: 0.214.0_react@18.2.0
+      next: 13.4.3_rfdx5ocjtvb4b2h5j5ipjicct4
+      next-contentlayer: 0.3.0_bgbmym2oj7jyb27pa3wz74iima
+      next-themes: 0.2.1_o6dt4yn4syzkhlixdxt4y57rzi
+      react: 18.2.0
+      react-day-picker: 8.7.1_kzhlcyde2l6xjiirkbg7jzhosa
+      react-dom: 18.2.0_react@18.2.0
+      react-hook-form: 7.44.2_react@18.2.0
+      react-wrap-balancer: 0.4.1_react@18.2.0
+      recharts: 2.6.2_v2m5e27vhdewzwhryxwfaorcca
+      sharp: 0.31.3
+      tailwind-merge: 1.12.0
+      zod: 3.21.4
+    devDependencies:
+      '@types/acorn': 6.0.0
+      '@types/node': 17.0.45
+      '@types/react': 18.2.7
+      '@types/react-color': 3.0.6
+      '@types/react-dom': 18.2.4
+      esbuild: 0.17.19
+      eslint: 8.41.0
+      mdast-util-toc: 6.1.1
+      postcss: 8.4.24
+      prettier: 2.8.8
+      prettier-plugin-tailwindcss: 0.3.0_prettier@2.8.8
+      rehype: 12.0.1
+      rehype-autolink-headings: 6.1.1
+      rehype-pretty-code: 0.6.0_shiki@0.12.1
+      rehype-slug: 5.1.0
+      remark: 14.0.3
+      remark-code-import: 1.2.0
+      remark-gfm: 3.0.1
+      shiki: 0.12.1
+      tailwindcss: 3.3.2
+      typescript: 4.9.5
+      unist-builder: 3.0.0
+      unist-util-visit: 4.1.2
 
   apps/www:
     specifiers:
@@ -261,6 +416,7 @@ importers:
     specifiers:
       '@ianvs/prettier-plugin-sort-imports': ^3.7.2
       '@radix-ui/react-slot': ^1.0.2
+      '@types/acorn': ^6.0.0
       '@types/node': ^17.0.45
       '@types/react': ^18.2.7
       '@types/react-dom': ^18.2.4
@@ -299,6 +455,7 @@ importers:
       tailwindcss-animate: 1.0.5_tailwindcss@3.3.2
     devDependencies:
       '@ianvs/prettier-plugin-sort-imports': 3.7.2_prettier@2.8.8
+      '@types/acorn': 6.0.0
       '@types/node': 17.0.45
       '@types/react': 18.2.7
       '@types/react-dom': 18.2.4
@@ -796,15 +953,15 @@ packages:
       '@commitlint/execute-rule': 17.4.0
       '@commitlint/resolve-extends': 17.4.4
       '@commitlint/types': 17.4.4
-      '@types/node': 17.0.45
+      '@types/node': 20.2.5
       chalk: 4.1.2
       cosmiconfig: 8.1.3
-      cosmiconfig-typescript-loader: 4.3.0_ub4nl566p56thhqioxgvptkkdm
+      cosmiconfig-typescript-loader: 4.3.0_7oa3o34757cehiklqrwde65gl4
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1_cin3sed6ohfsopbmt6orxeb4o4
+      ts-node: 10.9.1_6yd3dr4iiziaqkscqiabuqynye
       typescript: 4.9.5
     transitivePeerDependencies:
       - '@swc/core'
@@ -1320,7 +1477,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.7
-      '@types/node': 17.0.45
+      '@types/node': 20.2.5
     dev: false
 
   /@grpc/proto-loader/0.6.13:
@@ -3551,7 +3708,7 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.2.5
     dev: false
 
   /@types/long/4.0.2:
@@ -3587,7 +3744,6 @@ packages:
 
   /@types/node/20.2.5:
     resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
-    dev: true
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -3638,7 +3794,7 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.2.5
     dev: false
 
   /@types/scheduler/0.16.3:
@@ -4439,7 +4595,7 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: false
 
-  /cosmiconfig-typescript-loader/4.3.0_ub4nl566p56thhqioxgvptkkdm:
+  /cosmiconfig-typescript-loader/4.3.0_7oa3o34757cehiklqrwde65gl4:
     resolution: {integrity: sha512-NTxV1MFfZDLPiBMjxbHRwSh5LaLcPMwNdCutmnHJCKoVnlvldPWlllonKwrsRJ5pYZBIBGRWWU2tfvzxgeSW5Q==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -4448,9 +4604,9 @@ packages:
       ts-node: '>=10'
       typescript: '>=3'
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.2.5
       cosmiconfig: 8.1.3
-      ts-node: 10.9.1_cin3sed6ohfsopbmt6orxeb4o4
+      ts-node: 10.9.1_6yd3dr4iiziaqkscqiabuqynye
       typescript: 4.9.5
     dev: false
 
@@ -8329,7 +8485,7 @@ packages:
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
       '@types/long': 4.0.2
-      '@types/node': 17.0.45
+      '@types/node': 20.2.5
       long: 4.0.0
     dev: false
 
@@ -8348,7 +8504,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 17.0.45
+      '@types/node': 20.2.5
       long: 5.2.3
     dev: false
 
@@ -9621,6 +9777,37 @@ packages:
 
   /ts-interface-checker/0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
+
+  /ts-node/10.9.1_6yd3dr4iiziaqkscqiabuqynye:
+    resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
+    hasBin: true
+    peerDependencies:
+      '@swc/core': '>=1.2.50'
+      '@swc/wasm': '>=1.2.50'
+      '@types/node': '*'
+      typescript: '>=2.7'
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      '@swc/wasm':
+        optional: true
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      '@tsconfig/node10': 1.0.9
+      '@tsconfig/node12': 1.0.11
+      '@tsconfig/node14': 1.0.3
+      '@tsconfig/node16': 1.0.4
+      '@types/node': 20.2.5
+      acorn: 8.8.2
+      acorn-walk: 8.2.0
+      arg: 4.1.3
+      create-require: 1.1.1
+      diff: 4.0.2
+      make-error: 1.3.6
+      typescript: 4.9.5
+      v8-compile-cache-lib: 3.0.1
+      yn: 3.1.1
+    dev: false
 
   /ts-node/10.9.1_cin3sed6ohfsopbmt6orxeb4o4:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}

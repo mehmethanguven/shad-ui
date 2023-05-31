@@ -66,6 +66,7 @@
     "typescript": "^4.9.5"
   },
   "devDependencies": {
+    "@types/acorn": "^6.0.0",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }
