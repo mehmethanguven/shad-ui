@@ -100,6 +100,7 @@ importers:
       '@radix-ui/react-toggle-group': ^1.0.4
       '@radix-ui/react-tooltip': ^1.0.6
       '@tanstack/react-table': ^8.9.1
+      '@types/acorn': ^6.0.0
       '@types/node': ^17.0.45
       '@types/react': ^18.2.7
       '@types/react-color': ^3.0.6
@@ -195,6 +196,7 @@ importers:
       tailwind-merge: 1.12.0
       zod: 3.21.4
     devDependencies:
+      '@types/acorn': 6.0.0
       '@types/node': 17.0.45
       '@types/react': 18.2.7
       '@types/react-color': 3.0.6
@@ -3450,6 +3452,13 @@ packages:
     dependencies:
       '@types/estree': 1.0.1
     dev: false
+
+  /@types/acorn/6.0.0:
+    resolution: {integrity: sha512-8tSIZoick397hAZIZkiq6R09qNgLjx0CBvmxix3gWyCi6UvXNFjN56xh4e1wTwyYlnTEy32tgo9cooxt6J4lhA==}
+    deprecated: This is a stub types definition. acorn provides its own type definitions, so you do not need this installed.
+    dependencies:
+      acorn: 8.8.2
+    dev: true
 
   /@types/d3-array/3.0.5:
     resolution: {integrity: sha512-Qk7fpJ6qFp+26VeQ47WY0mkwXaiq8+76RJcncDEfMc2ocRzXLO67bLFRNI4OX1aGBoPzsM5Y2T+/m1pldOgD+A==}
